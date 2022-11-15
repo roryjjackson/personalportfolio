@@ -1,6 +1,24 @@
 .navbar-lewagon {
   justify-content: space-between;
-  background: white;
+  background: $white;
+  max-width: 600px;
+  max-height: 40px;
+  border-radius: 15px;
+  margin: 30px auto;
+  position: sticky;
+  top: 30px;
+  color: $dark-red;
+}
+
+.navbar-name {
+  // font-size: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-name p {
+ margin: auto;
 }
 
 .navbar-lewagon .navbar-collapse {
