@@ -12,7 +12,7 @@
   display: flex;
   align-items: center;
   margin: 40px;
-  border: solid rgba(255, 255, 255, 0.058) 1px;
+  border: solid rgba(255, 255, 255, 0.225) 1px;
   border-radius: 56px;
   background-color: $dark-blue;
   padding: 20px;
@@ -23,7 +23,7 @@
   transform: rotate(180deg);
   text-align: center;
   // margin: 0 0 0 20px;
-  font-size: 10px;
+  font-size: 16px;
 }
 
 .card-project img {
@@ -36,18 +36,23 @@
 
 .card-project-info h4 {
   margin-top: 125px;
-  font-size: 30px;
+  font-size: 34px;
   font-weight: bold;
+  background-image: linear-gradient(90deg,#b0f3f1,#ffcfdf);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .card-project-info p {
   margin-top: 20px;
   opacity: .7;
   // line-height: 5;
+  font-size: 16px;
 }
 
 .card-project-info h5 {
-  font-size: 12px;
+  font-size: 16px;
   margin-top: 40px;
 }
 
@@ -55,4 +60,14 @@
   padding: 20px;
   height: 440px;
   margin-left: 20px;
+}
+
+.visit-btn {
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  list-style: none;
+}
+
+.tag {
+  text-decoration: none;
 }

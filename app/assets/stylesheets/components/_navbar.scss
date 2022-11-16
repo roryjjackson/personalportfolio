@@ -2,12 +2,16 @@
   justify-content: space-between;
   background-color: $dark-blue;
   max-width: 600px;
-  max-height: 40px;
+  max-height: 60px;
   border-radius: 15px;
   margin: 30px auto;
   position: sticky;
   top: 30px;
-  border: solid rgba(255, 255, 255, 0.058) 1px;
+  border: solid rgba(255, 255, 255, 0.225) 1px;
+}
+
+#rjjack {
+  width: 80px;
 }
 
 .navbar-name {
@@ -37,4 +41,50 @@
   justify-content: center;
   align-items: center;
   text-decoration: none;
+  font-size: 35px;
 }
+
+// $col: #f94144, #f3722c, #f8961e, #90be6d, #43aa8b, #577590;
+// $n: length($col);
+// $dir: 'x' 'y';
+// $m: length($dir);
+// $grd: ();
+// $ani: ();
+
+// @for $i from 0 to $n {
+// 	$l: ();
+// 	$t: (1.5 + random(5))*1s;
+// 	$d: random(100)*$t/100;
+
+// 	@for $j from 0 to $m {
+// 		$k: #{nth($dir, $j + 1)}#{$i};
+
+// 		@property --#{$k} {
+// 			syntax: '<length-percentage>';
+// 			initial-value: 0%;
+// 			inherits: false
+// 		}
+
+// 		@keyframes #{$k} {
+// 			0% { --#{$k}: 25% }
+// 			100% { --#{$k}: 75% }
+// 		}
+
+// 		$l: $l var(--#{$k}, #{random(100)*1%});
+// 		$ani: $ani, #{$k} #{$t} #{-.5*$j*$t - $d}
+// 			if(random(100) < 50, alternate, alternate-reverse)
+// 	}
+
+// 	$grd: $grd,
+// 		radial-gradient(circle at $l,
+// 				nth($col, $i + 1), transparent 35%)
+// }
+
+// .page-content {
+// 	height: 100%;
+// 	background: $grd #f9c74f;
+// 	background-position: 50%;
+// 	animation: $ani;
+// 	animation-timing-function: ease-in-out;
+// 	animation-iteration-count: infinite
+// }
