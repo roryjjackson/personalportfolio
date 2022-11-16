@@ -1,10 +1,9 @@
 <div class="navbar navbar-expand-sm navbar-light navbar-lewagon">
   <div class="container-fluid">
     <div class="navbar-name">
-      <%# <%= link_to "#", class: "navbar-brand" do %>
-        <%# <%= image_tag "https://res.cloudinary.com/dfipoufmj/image/upload/v1668511487/rj-logo_yoyxnl.png" %>
-        <p>Rory Jackson</p>
-      <%# <% end %>
+      <%= link_to "#", class: "navbar-brand" do %>
+        <%= image_tag "https://res.cloudinary.com/dfipoufmj/image/upload/v1668511487/rj-logo_yoyxnl.png" %>
+      <% end %>
     </div>
     <%# <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -15,7 +14,7 @@
             <%= link_to "Menu", "#", class: "nav-link" %>
           </li>
           <li class="nav-item dropdown">
-            <%= image_tag "https://res.cloudinary.com/dfipoufmj/image/upload/v1668007818/bars-solid_p1rgm2.svg", class: "avatar dropdown-toggle", id: "navbarDropdown", data: { bs_toggle: "dropdown" }, 'aria-haspopup': true, 'aria-expanded': false %>
+            <a href="#" class="avatar dropdown-toggle" id="navbarDropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa-solid fa-bars"></i></a>
             <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
               <%= link_to "Projects", "#", class: "dropdown-item" %>
               <%= link_to "About me", "#", class: "dropdown-item" %>

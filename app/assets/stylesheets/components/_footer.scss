@@ -6,6 +6,8 @@
   height: 100px;
   padding: 0px 50px;
   color: white;
+  border-top: solid rgba(255, 255, 255, 0.058) 1px;
+  background-color: $dark-blue;
 }
 .footer-links {
   display: flex;
@@ -23,4 +25,9 @@
 }
 .footer .fa-heart {
   color: #D23333;
+}
+
+.footer-copyright p {
+  margin: 0;
+  margin-right: 40px;
 }

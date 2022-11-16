@@ -1,17 +1,16 @@
 .navbar-lewagon {
   justify-content: space-between;
-  background: $white;
+  background-color: $dark-blue;
   max-width: 600px;
   max-height: 40px;
   border-radius: 15px;
   margin: 30px auto;
   position: sticky;
   top: 30px;
-  color: $dark-red;
+  border: solid rgba(255, 255, 255, 0.058) 1px;
 }
 
 .navbar-name {
-  // font-size: 8px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -27,4 +26,15 @@
 
 .navbar-lewagon .navbar-brand img {
   width: 40px;
+}
+
+.nav-link {
+  color: $green;
+}
+
+#navbarDropdown {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
 }
