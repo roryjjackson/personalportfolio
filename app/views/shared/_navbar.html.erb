@@ -1,27 +1,14 @@
-<div class="navbar navbar-expand-sm navbar-light navbar-lewagon">
-  <div class="container-fluid">
+<%# <div class="navbar navbar-expand-sm navbar-light navbar-lewagon">
     <div class="navbar-name">
-      <%= link_to "#", class: "navbar-brand" do %>
-        <%= image_tag "https://res.cloudinary.com/dfipoufmj/image/upload/v1668607022/rjjacknobackground_ykd6aa.svg", id: "rjjack" %>
-      <% end %>
-    </div>
-    <%# <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button> %>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto">
-          <%# <li class="nav-item active">
-            <%= link_to "Menu", "#", class: "nav-link" %>
-          <%# </li> %>
-          <li class="nav-item dropdown">
-            <a href="#" class="avatar" id="navbarDropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa-solid fa-bars"></i></a>
-            <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
-              <%= link_to "Projects", "#project", class: "dropdown-item" %>
-              <%= link_to "About me", "#", class: "dropdown-item" %>
-              <%= link_to "Contact", "#", class: "dropdown-item" %>
-            </div>
-          </li>
-      </ul>
-    </div>
-  </div>
+      <%= link_to root_path, class: "navbar-brand" do %>
+        <%# <h1>Home</h1> %>
+        <%# <%= image_tag "https://res.cloudinary.com/dfipoufmj/image/upload/v1668607022/rjjacknobackground_ykd6aa.svg", id: "rjjack" %>
+      <%# <% end %>
+    <%# </div> %>
+<%# </div> %>
+<div class="navbar">
+  <ul class="navbar-list">
+    <li class="navbar-list-item"><%= link_to "Home", '#roof', class: "tag" %></li>
+    <li class="navbar-list-item"><%= link_to "Contact", '#floor', class: "tag" %></li>
+  </ul>
 </div>
