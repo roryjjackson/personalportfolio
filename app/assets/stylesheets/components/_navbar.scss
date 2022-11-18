@@ -6,6 +6,10 @@
 
 .navbar-list-item {
   list-style: none;
+  border: solid rgba(255, 255, 255, 0.225) 1px;
+  border-radius: 30px;
+  background-color: $dark-blue;
+  padding: 10px;
 }
 
 .navbar-list {
