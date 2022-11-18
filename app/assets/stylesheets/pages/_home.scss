@@ -52,15 +52,12 @@ a {
 .social-banner {
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
 }
 
 #view-projects-btn {
-  margin-left: 67px;
-  text-decoration: none;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: none;
+  justify-content: flex-end;
 }
 
 .social-banner-icons {
@@ -119,7 +116,6 @@ a {
 .personal-info-container {
   display: flex;
   justify-content: space-between;
-  // margin: 50px;
 }
 
 .personal-introduction {
@@ -129,12 +125,7 @@ a {
   margin-right: 0;
 }
 
-.personal-introduction img {
-  // margin-right: 115px;
-}
-
 .profile-text-vertical {
-  // width: 300px;
   padding: 20px 0 20px 20px;
   display: flex;
   justify-content: right;
@@ -169,7 +160,6 @@ a {
 
 .contact-me p {
   margin-top: 115px;
-  // margin-left: 50px;
 }
 
 @media only screen and (min-width: 901px) and (max-width: 1100px) {
@@ -200,7 +190,6 @@ a {
 
   #view-projects-btn {
     display: none;
-    // margin-right: 0;
     justify-content: flex-end;
   }
 
