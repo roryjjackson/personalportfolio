@@ -261,20 +261,6 @@ a {
   }
 }
 
-@media only screen and (min-width:1px) and (max-width: 397px) {
-  .contact-me p {
-    font-size: 10px;
-    margin-top: 20px;
-  }
-}
-
-@media only screen and (min-width:398px) and (max-width: 660px) {
-  .contact-me p {
-    font-size: 14px;
-    margin-top: 50px;
-  }
-}
-
 
 @media only screen and (min-width:1px) and (max-width: 660px) {
   .welcome-info h1 {
@@ -353,5 +339,10 @@ a {
 
   .contact-me {
     margin: 0 50px 50px 50px;
+  }
+
+  .contact-me p {
+    font-size: 14px;
+    margin-top: 30px;
   }
 }
