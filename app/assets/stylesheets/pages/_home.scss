@@ -38,13 +38,14 @@ a {
 }
 
 .welcome-info h2 {
-  font-size: 28px;
+  font-size: 60px;
   margin: 0 67px;
   background-image: linear-gradient(90deg,#b0f3f1,#ffcfdf);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-family: 'Montserrat', sans-serif;
+
+  // font-family: 'Montserrat', sans-serif;
 }
 
 @keyframes animate{
@@ -193,10 +194,12 @@ a {
   .welcome-info h1 {
     font-size: 70px;
     margin:  20px 70px;
+    margin-top: 80px;
   }
 
   .welcome-info h2 {
     margin: 70px;
+    font-size: 50px;
   }
 
   #galaxy-pic {
@@ -279,12 +282,14 @@ a {
 
 @media only screen and (min-width:1px) and (max-width: 660px) {
   .welcome-info h1 {
-    font-size: 47px;
+    font-size: 55px;
     margin: 30px;
+    margin-top: 80px;
   }
 
   .welcome-info h2 {
     margin: 30px;
+    font-size: 40px;
   }
 
   #galaxy-pic {
